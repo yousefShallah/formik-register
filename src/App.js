@@ -9,12 +9,16 @@ import {
 } from "react-router-dom";
 
 class App extends React.Component {
+
   render(){
     return (
           <div className="app">
             <Router>
               <Switch>
-                <Route exact path="/" >
+                <Route exact path='/' >
+                  <Login  />
+                </Route>
+                <Route path='/login' >
                   <Login  />
                 </Route>
                 <Route path="/signup"> 
