@@ -1,0 +1,49 @@
+.continer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+  }
+  .continer h1{
+    margin: 1em;
+  }
+  .form-continer{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-continer input {
+    width: 300px;
+    margin: 1em 0px;
+    padding: .8em;
+  }
+  .form-continer button{
+    width: 250px;
+    height: 40px;
+    margin: 1em auto 0px;
+    background: linear-gradient(to right,#cc2535,#f44b4b);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+  .form-continer button:hover{
+    cursor: pointer;
+  }
+  .required{
+    color: #cc2535;
+    font-size: 12px;
+    margin-top: -8px;
+  }
+  .signup-continer-link{
+    margin: 2em 0px 0px;
+  }
+  .signup-continer-link a{
+    text-decoration: none;
+    color: #25252599;
+    font-size: 18px;
+  }
+  .signup-continer-link a:hover{
+    color: #252525;
+  }
